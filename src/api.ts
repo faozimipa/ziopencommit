@@ -82,7 +82,7 @@ export const getOpenCommitLatestVersion = async (): Promise<
 > => {
   try {
     const { data } = await axios.get(
-      'https://unpkg.com/opencommit/package.json'
+      'https://unpkg.com/ziopencommit/package.json'
     );
     return data.version;
   } catch (_) {
