@@ -17,10 +17,10 @@ let basePath = config?.OPENAI_BASE_PATH;
 const [command, mode] = process.argv.slice(2);
 
 if (!apiKey && command !== 'config' && mode !== CONFIG_MODES.set) {
-  intro('opencommit');
+  intro('ziopencommit');
 
   outro(
-    'OPENAI_API_KEY is not set, please run `oc config set OPENAI_API_KEY=<your token>. Make sure you add payment details, so API works.`'
+    'OPENAI_API_KEY is not set, please run `zc config set OPENAI_API_KEY=<your token>. Make sure you add payment details, so API works.`'
   );
   outro(
     'For help look into README https://github.com/di-sukharev/opencommit#setup'
@@ -68,7 +68,7 @@ class OpenAi {
 
         if (openAiError?.message) outro(openAiError.message);
         outro(
-          'For help look into README https://github.com/di-sukharev/opencommit#setup'
+          'For help look into README https://github.com/faozimipa/ziopencommit#setup'
         );
       }
 
