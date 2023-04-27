@@ -23,10 +23,10 @@
     "zoc": "./out/cli.cjs"
   },
   "repository": {
-    "url": "https://github.com/di-sukharev/opencommit"
+    "url": "https://github.com/faozimipa/ziopencommit"
   },
   "type": "module",
-  "author": "https://github.com/di-sukharev",
+  "author": "https://github.com/faozimipa",
   "license": "MIT",
   "files": [
     "out/**/*"
