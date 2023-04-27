@@ -55,10 +55,10 @@ export const hookCommand = command(
           }
 
           if (realPath === HOOK_URL)
-            return outro(`OpenCommit is already set as '${HOOK_NAME}'`);
+            return outro(`Zi OpenCommit is already set as '${HOOK_NAME}'`);
 
           throw new Error(
-            `Different ${HOOK_NAME} is already set. Remove it before setting opencommit as '${HOOK_NAME}' hook.`
+            `Different ${HOOK_NAME} is already set. Remove it before setting ziopencommit as '${HOOK_NAME}' hook.`
           );
         }
 
@@ -71,19 +71,19 @@ export const hookCommand = command(
 
       if (mode === 'unset') {
         intro(
-          `unsetting opencommit as '${HOOK_NAME}' hook from ${SYMLINK_URL}`
+          `unsetting ziopencommit as '${HOOK_NAME}' hook from ${SYMLINK_URL}`
         );
 
         if (!(await isHookExists())) {
           return outro(
-            `OpenCommit wasn't previously set as '${HOOK_NAME}' hook, nothing to remove`
+            `Zi OpenCommit wasn't previously set as '${HOOK_NAME}' hook, nothing to remove`
           );
         }
 
         const realpath = await fs.realpath(SYMLINK_URL);
         if (realpath !== HOOK_URL) {
           return outro(
-            `OpenCommit wasn't previously set as '${HOOK_NAME}' hook, but different hook was, if you want to remove it — do it manually`
+            `Zi OpenCommit wasn't previously set as '${HOOK_NAME}' hook, but different hook was, if you want to remove it — do it manually`
           );
         }
 
