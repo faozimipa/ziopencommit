@@ -23,7 +23,7 @@ if (!apiKey && command !== 'config' && mode !== CONFIG_MODES.set) {
     'OPENAI_API_KEY is not set, please run `zc config set OPENAI_API_KEY=<your token>. Make sure you add payment details, so API works.`'
   );
   outro(
-    'For help look into README https://github.com/di-sukharev/opencommit#setup'
+    'For help look into README https://github.com/faozimipa/opencommit#setup'
   );
 
   process.exit(1);
@@ -86,7 +86,7 @@ export const getOpenCommitLatestVersion = async (): Promise<
     );
     return data.version;
   } catch (_) {
-    outro('Error while getting the latest version of opencommit');
+    outro('Error while getting the latest version of ziopencommit');
     return undefined;
   }
 };
