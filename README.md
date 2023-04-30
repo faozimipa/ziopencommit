@@ -9,13 +9,6 @@
 </div>
 
 ---
-
-<div align="center">
-    <img src=".github/opencommit-example.png" alt="Zi OpenCommit example"/>
-</div>
-
-All the commits in this repo are done with Zi OpenCommit — look into [the commits](https://github.com/di-sukharev/opencommit/commit/eae7618d575ee8d2e9fff5de56da79d40c4bc5fc) to see how Zi OpenCommit works. Emoji and long commit description text is configurable.
-
 ## Setup
 
 1. Install Zi OpenCommit globally to use in any repository:
