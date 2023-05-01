@@ -4,7 +4,7 @@
     <h1 align="center">Zi OpenCommit</h1>
   </div>
 	<h2>GPT CLI to auto-generate impressive commits in 1 second</h2>
-	<p>Killing lame commits with AI 🤯🔫</p>
+	<p>Make it simple commits with AI</p>
 	<a href="https://www.npmjs.com/package/ziopencommit"><img src="https://img.shields.io/npm/v/ziopencommit" alt="Current version"></a>
 </div>
 
@@ -23,6 +23,10 @@
 
    ```sh
    ziopencommit config set OPENAI_API_KEY=<your_api_key>
+   ```
+4. Set GPT model to change gpt-3.5-turbo as default:
+   ```sh
+   zc config set model=gpt-4
    ```
 
    Your api key is stored locally in `~/.ziopencommit` config file.
@@ -146,6 +150,3 @@ git commit
 
 Or follow the process of your IDE Source Control feature, when it calls `git commit` command — Zi OpenCommit will integrate into the flow.
 
-## Payments
-
-You pay for your own requests to OpenAI API. Zi OpenCommit uses ChatGPT (3.5-turbo) official model, that is ~15x times cheaper than GPT-4.
