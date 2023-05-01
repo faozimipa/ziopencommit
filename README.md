@@ -1,6 +1,6 @@
 <div align="center">
   <div>
-    <img src=".github/logo.jpeg" alt="Zi OpenCommit logo"/>
+    <img src=".github/logo.png" alt="Zi OpenCommit logo"/>
     <h1 align="center">Zi OpenCommit</h1>
   </div>
 	<h2>GPT CLI to auto-generate impressive commits in 1 second</h2>
