@@ -20,7 +20,11 @@
   "bin": {
     "ziopencommit": "./out/cli.cjs",
     "zc": "./out/cli.cjs",
-    "zoc": "./out/cli.cjs"
+    "zoc": "./out/cli.cjs",
+    "zi": "./out/cli.cjs",
+    "ris": "./out/cli.cjs",
+    "dre": "./out/cli.cjs",
+    "pur": "./out/cli.cjs"
   },
   "repository": {
     "url": "https://github.com/faozimipa/ziopencommit"
