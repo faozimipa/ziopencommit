@@ -6,6 +6,7 @@
 	<h2>GPT CLI to auto-generate impressive commits in 1 second</h2>
 	<p>Make it simple commits with AI</p>
 	<a href="https://www.npmjs.com/package/ziopencommit"><img src="https://img.shields.io/npm/v/ziopencommit" alt="Current version"></a>
+   <img src=".github/example.png" alt="Example commit" />
 </div>
 
 ---
