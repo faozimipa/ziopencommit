@@ -80,6 +80,13 @@ To remove description:
 zc config set description=false
 ```
 
+### Jira Integration
+Just add jira number comment on code for ex:
+```sh
+// jira PTPLAPFP-1664
+var validateFunc = function(){}
+```
+
 ### Internationalization support
 
 To specify the language used to generate commit messages:
