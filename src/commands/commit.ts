@@ -167,6 +167,7 @@ export async function commit(
   stagedFilesSpinner.start('Counting staged files');
 
   if (!stagedFiles.length) {
+    console.log(stagedFiles);
     stagedFilesSpinner.stop('No files are staged');
     const isStageAllAndCommitConfirmedByUser = await confirm({
       message: 'Do you want to stage all files and generate commit message?'
