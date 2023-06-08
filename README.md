@@ -41,7 +41,7 @@ git add <files...>
 ziopencommit
 ```
 
-You can also use the `oc` shortcut:
+You can also use the `zc` shortcut:
 
 ```sh
 git add <files...>
