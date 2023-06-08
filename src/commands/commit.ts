@@ -199,6 +199,7 @@ export async function commit(
     process.exit(1);
   }
 
+  
   stagedFilesSpinner.stop(
     `${stagedFiles.length} staged files:\n${stagedFiles
       .map((file) => `  ${file}`)

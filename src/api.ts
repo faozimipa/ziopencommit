@@ -44,6 +44,7 @@ class OpenAi {
     this.openAI = new OpenAIApi(this.openAiApiConfiguration);
   }
 
+  
   public generateCommitMessage = async (
     messages: Array<ChatCompletionRequestMessage>
   ): Promise<string | undefined> => {
