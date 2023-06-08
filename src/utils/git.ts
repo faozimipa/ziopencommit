@@ -33,6 +33,7 @@ export const getCoreHooksPath = async(): Promise<string> => {
   return stdout;
 }
 
+
 export const getStagedFiles = async (): Promise<string[]> => {
   const { stdout: gitDir } = await execa('git', [
     'rev-parse',
